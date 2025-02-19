@@ -12,6 +12,7 @@ TagManager:
   - GameManager
   - Road
   - DeathMark
+  - Number
   layers:
   - Default
   - TransparentFX
