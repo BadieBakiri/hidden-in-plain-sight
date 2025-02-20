@@ -8,7 +8,8 @@ public class Crystal : MonoBehaviour
     // Start is called before the first frame update
     public int position;
     int _currentMana;
-    
+
+    public Sprite FullCrystal, EmptyCrystal;
     void Start()
     {
         
@@ -20,11 +21,13 @@ public class Crystal : MonoBehaviour
         _currentMana = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>().Mana;
         if (_currentMana >= position)
         {
-            GetComponent<Image>().color = Color.cyan;
+            GetComponent<Image>().sprite = FullCrystal;
+            //GetComponent<Image>().color = Color.cyan;
         }
         else
         {
-            GetComponent<Image>().color = Color.gray;
+            GetComponent<Image>().sprite = EmptyCrystal;
+            //GetComponent<Image>().color = Color.gray;
         }
     }
 
