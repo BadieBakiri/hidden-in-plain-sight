@@ -1633,9 +1633,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8918dd2abee0e4f40a2239efc2adb71b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minIntensity: 150
-  maxIntensity: 170
-  flickerSpeed: 0.1
+  minIntensity: 1
+  maxIntensity: 2
+  frequency: 0.35
 --- !u!114 &125449824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4631,6 +4631,7 @@ GameObject:
   - component: {fileID: 410367370}
   - component: {fileID: 410367369}
   - component: {fileID: 410367368}
+  - component: {fileID: 410367371}
   m_Layer: 0
   m_Name: fw
   m_TagString: Untagged
@@ -4738,6 +4739,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &410367371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410367367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8918dd2abee0e4f40a2239efc2adb71b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minIntensity: 0.5
+  maxIntensity: 1.25
+  frequency: 0.2
 --- !u!1001 &419912351
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23277,21 +23293,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8918dd2abee0e4f40a2239efc2adb71b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-  minIntensity: 150
-  maxIntensity: 170
-  flickerSpeed: 0.1
-=======
   minIntensity: 175
   maxIntensity: 165
   frequency: 7
->>>>>>> Stashed changes
-=======
-  minIntensity: 175
-  maxIntensity: 165
-  frequency: 7
->>>>>>> Stashed changes
 --- !u!1 &1389945938
 GameObject:
   m_ObjectHideFlags: 0
