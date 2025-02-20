@@ -1633,9 +1633,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8918dd2abee0e4f40a2239efc2adb71b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   minIntensity: 1
   maxIntensity: 2
   frequency: 0.35
+=======
+  minIntensity: 150
+  maxIntensity: 170
+  flickerSpeed: 0.1
+>>>>>>> Stashed changes
 --- !u!114 &125449824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6071,6 +6077,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: beed8b1a33044844bbcde5c5036350e8, type: 3}
+<<<<<<< Updated upstream
 --- !u!1001 &509356137
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6159,6 +6166,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1d14ccc9b9909d429e5ce78da6f6696, type: 3}
+=======
+>>>>>>> Stashed changes
 --- !u!1001 &509855702
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32470,7 +32479,10 @@ SceneRoots:
   - {fileID: 945695438}
   - {fileID: 2060927841}
   - {fileID: 168247239}
+<<<<<<< Updated upstream
   - {fileID: 410367370}
+=======
+>>>>>>> Stashed changes
   - {fileID: 1236771366}
   - {fileID: 46095672}
   - {fileID: 749198221}
@@ -32480,7 +32492,10 @@ SceneRoots:
   - {fileID: 1341629403}
   - {fileID: 1333147274}
   - {fileID: 2007206255}
+<<<<<<< Updated upstream
   - {fileID: 509356137}
   - {fileID: 892347460}
   - {fileID: 351110374}
   - {fileID: 438534532}
+=======
+>>>>>>> Stashed changes
