@@ -28,7 +28,6 @@ public class LayoutArrangment : MonoBehaviour
         {
             children.Add(child.gameObject);
         }
-
         return children.ToArray();
     }
 }

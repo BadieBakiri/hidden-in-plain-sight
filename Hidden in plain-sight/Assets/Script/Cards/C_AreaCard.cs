@@ -66,6 +66,17 @@ public class C_AreaCard : MonoBehaviour, ICard
         {
             Instantiate(m_EffectPrefab, children.transform.position,Quaternion.identity);
         }
+
+        Debug.Log(this.gameObject.name);
+
+        if (this.gameObject.name.Contains("SatelliteScan")) //If the card you use is a satellite scan, reset the numbers
+        {
+            _gameManager.PlaneCount = 0;
+            _gameManager.InfantryCount = 0;
+            _gameManager.TankCount = 0;
+            Debug.Log("Reset");
+        }
+
         UnPick();
         Destroy(this.gameObject);
     }
