@@ -22,6 +22,8 @@ public class GameManager : MonoBehaviour
 
     public TMPro.TMP_Text InfantryText, TankText, PlaneText;
 
+    public UIPanelAnimator PanelAnim;
+
     // Start is called before the first frame update
     void Start()
     {

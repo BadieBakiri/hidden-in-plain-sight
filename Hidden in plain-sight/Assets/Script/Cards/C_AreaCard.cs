@@ -76,6 +76,7 @@ public class C_AreaCard : MonoBehaviour, ICard
             _gameManager.PlaneCount = 0;
             _gameManager.InfantryCount = 0;
             _gameManager.TankCount = 0;
+            _gameManager.PanelAnim.AnimatePanel();
             Debug.Log("Reset");
         }
 
