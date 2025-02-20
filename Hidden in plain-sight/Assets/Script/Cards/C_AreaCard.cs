@@ -21,8 +21,10 @@ public class C_AreaCard : MonoBehaviour, ICard
 
     private int _mana;
 
-    private GameManager _gameManager;
+    [SerializeField]
+    AudioSource _cardPick;
 
+    private GameManager _gameManager;
     void Start()
     {
         _gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
@@ -84,6 +86,7 @@ public class C_AreaCard : MonoBehaviour, ICard
     public void Pick()
     {
         m_Area = Instantiate(m_AreaPrefab);
+        _cardPick.Play();
     }
 
     public void UnPick()
