@@ -1260,8 +1260,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'INFANTRY : 4'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8b7aaeb2f9d8c5d4a972ed4b5952160b, type: 2}
-  m_sharedMaterial: {fileID: -8009468810451008865, guid: 8b7aaeb2f9d8c5d4a972ed4b5952160b,
+  m_fontAsset: {fileID: 11400000, guid: fa9ee6e70852c7b4eb2ab81225f0dc41, type: 2}
+  m_sharedMaterial: {fileID: -8376078341524589147, guid: fa9ee6e70852c7b4eb2ab81225f0dc41,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -7488,8 +7488,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: MOVES
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8b7aaeb2f9d8c5d4a972ed4b5952160b, type: 2}
-  m_sharedMaterial: {fileID: -8009468810451008865, guid: 8b7aaeb2f9d8c5d4a972ed4b5952160b,
+  m_fontAsset: {fileID: 11400000, guid: fa9ee6e70852c7b4eb2ab81225f0dc41, type: 2}
+  m_sharedMaterial: {fileID: -8376078341524589147, guid: fa9ee6e70852c7b4eb2ab81225f0dc41,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -8445,6 +8445,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   position: 6
+  FullCrystal: {fileID: 0}
+  EmptyCrystal: {fileID: 0}
 --- !u!4 &656675254 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9a6bdffb0a031ee499f99014c520257d,
@@ -9489,8 +9491,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'PLANES : 1'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8b7aaeb2f9d8c5d4a972ed4b5952160b, type: 2}
-  m_sharedMaterial: {fileID: -8009468810451008865, guid: 8b7aaeb2f9d8c5d4a972ed4b5952160b,
+  m_fontAsset: {fileID: 11400000, guid: fa9ee6e70852c7b4eb2ab81225f0dc41, type: 2}
+  m_sharedMaterial: {fileID: -8376078341524589147, guid: fa9ee6e70852c7b4eb2ab81225f0dc41,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -9972,6 +9974,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   position: 7
+  FullCrystal: {fileID: 0}
+  EmptyCrystal: {fileID: 0}
 --- !u!1 &801105215
 GameObject:
   m_ObjectHideFlags: 0
@@ -11442,6 +11446,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   position: 2
+  FullCrystal: {fileID: 0}
+  EmptyCrystal: {fileID: 0}
 --- !u!1 &936662304
 GameObject:
   m_ObjectHideFlags: 0
@@ -13088,6 +13094,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   position: 1
+  FullCrystal: {fileID: 0}
+  EmptyCrystal: {fileID: 0}
 --- !u!1 &1007806584
 GameObject:
   m_ObjectHideFlags: 0
@@ -14146,6 +14154,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   position: 5
+  FullCrystal: {fileID: 0}
+  EmptyCrystal: {fileID: 0}
 --- !u!1 &1110434468
 GameObject:
   m_ObjectHideFlags: 0
@@ -15813,8 +15823,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Next Turn
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8b7aaeb2f9d8c5d4a972ed4b5952160b, type: 2}
-  m_sharedMaterial: {fileID: -8009468810451008865, guid: 8b7aaeb2f9d8c5d4a972ed4b5952160b,
+  m_fontAsset: {fileID: 11400000, guid: fa9ee6e70852c7b4eb2ab81225f0dc41, type: 2}
+  m_sharedMaterial: {fileID: -8376078341524589147, guid: fa9ee6e70852c7b4eb2ab81225f0dc41,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -16257,6 +16267,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   position: 3
+  FullCrystal: {fileID: 0}
+  EmptyCrystal: {fileID: 0}
 --- !u!1 &1282632175
 GameObject:
   m_ObjectHideFlags: 0
@@ -16316,8 +16328,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'TANKS : 5'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8b7aaeb2f9d8c5d4a972ed4b5952160b, type: 2}
-  m_sharedMaterial: {fileID: -8009468810451008865, guid: 8b7aaeb2f9d8c5d4a972ed4b5952160b,
+  m_fontAsset: {fileID: 11400000, guid: fa9ee6e70852c7b4eb2ab81225f0dc41, type: 2}
+  m_sharedMaterial: {fileID: -8376078341524589147, guid: fa9ee6e70852c7b4eb2ab81225f0dc41,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -25094,6 +25106,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   position: 8
+  FullCrystal: {fileID: 0}
+  EmptyCrystal: {fileID: 0}
 --- !u!1 &2036452632
 GameObject:
   m_ObjectHideFlags: 0
@@ -26872,6 +26886,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   position: 4
+  FullCrystal: {fileID: 0}
+  EmptyCrystal: {fileID: 0}
 --- !u!1001 &2138149447
 PrefabInstance:
   m_ObjectHideFlags: 0
