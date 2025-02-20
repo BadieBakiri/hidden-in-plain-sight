@@ -287,7 +287,7 @@ MonoBehaviour:
   m_Text: {fileID: 8508353858903621768}
   m_AreaPrefab: {fileID: 2650156494601523794, guid: 202f898900782d849a6011094a3a9773,
     type: 3}
-  m_EffectPrefab: {fileID: 3530630031183734060, guid: 5d5569a7fe43c1e43b403266aae5ddf2,
+  m_EffectPrefab: {fileID: 3530630031183734060, guid: ffdc22c4afbd06c418b434c63bb3b989,
     type: 3}
   _cost: 3
 --- !u!114 &2687083335215323052

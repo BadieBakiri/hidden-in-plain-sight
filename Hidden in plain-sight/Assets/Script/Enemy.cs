@@ -59,6 +59,18 @@ public class Enemy : MonoBehaviour
             }
             _marker.transform.position = this.transform.position;
         }
+
+        if (other.transform.CompareTag("Number"))
+        {
+            GameManager gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
+
+            switch (_enemyType)
+            {
+                case Type.Infantry: gameManager.InfantryCount++; break;
+                case Type.Tank: gameManager.TankCount++; break;
+                case Type.Plane: gameManager.PlaneCount++; break;
+            }
+        }
     }
 
     public void StartTurn()

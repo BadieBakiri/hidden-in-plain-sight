@@ -18,9 +18,16 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     GameObject _hand;
 
+    public int InfantryCount, TankCount, PlaneCount;
+
+    public TMPro.TMP_Text InfantryText, TankText, PlaneText;
+
     // Start is called before the first frame update
     void Start()
     {
+        InfantryCount = 0;
+        TankCount = 0;
+        PlaneCount = 0;
         DrawNewCards(2); //Draws two cards at the beginning of the game
         _currentTurn = Turn.PlayerTurn;
     }
@@ -42,6 +49,10 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        InfantryText.text = "Infantry : " + InfantryCount;
+        TankText.text = "Tanks : " + TankCount;
+        PlaneText.text = "Planes : " + PlaneCount;
+
         if (Mana > _maxMana)
         {
             Mana  = _maxMana;
