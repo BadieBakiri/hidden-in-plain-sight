@@ -34,7 +34,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 36.4, y: 14.400002}
+  m_AnchoredPosition: {x: -41.99996, y: 15.999992}
   m_SizeDelta: {x: -82.9, y: 4.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &474295270000046336
@@ -67,8 +67,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 3
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f0fd022acc11e7f4197d7c53f5619083, type: 2}
-  m_sharedMaterial: {fileID: 671659810653487527, guid: f0fd022acc11e7f4197d7c53f5619083,
+  m_fontAsset: {fileID: 11400000, guid: 8b7aaeb2f9d8c5d4a972ed4b5952160b, type: 2}
+  m_sharedMaterial: {fileID: -8009468810451008865, guid: 8b7aaeb2f9d8c5d4a972ed4b5952160b,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 1
+  m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -288,7 +288,7 @@ MonoBehaviour:
     type: 3}
   m_EffectPrefab: {fileID: 3530630031183734060, guid: 50f4b68f1a754c645ae63f18cbe751d0,
     type: 3}
-  _cost: 4
+  _cost: 5
 --- !u!114 &1918913468944900838
 MonoBehaviour:
   m_ObjectHideFlags: 0
