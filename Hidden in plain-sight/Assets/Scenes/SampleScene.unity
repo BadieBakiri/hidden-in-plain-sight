@@ -23277,9 +23277,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8918dd2abee0e4f40a2239efc2adb71b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   minIntensity: 150
   maxIntensity: 170
   flickerSpeed: 0.1
+=======
+  minIntensity: 175
+  maxIntensity: 165
+  frequency: 7
+>>>>>>> Stashed changes
 --- !u!1 &1389945938
 GameObject:
   m_ObjectHideFlags: 0
