@@ -15,6 +15,9 @@ public class Enemy : MonoBehaviour
     [SerializeField]
     GameObject _deathPrefab;
 
+    [SerializeField]
+    LayerMask roadMask;
+
     GameObject _marker;
 
     Vector3 _nextMove;
@@ -174,7 +177,7 @@ public class Enemy : MonoBehaviour
                 return Vector3.left;
             }
         }
-        return Random.value > 0.5f ? Vector3.right : Vector3.left; //If there's  bridge just throw a random position
+        return Random.value > 0.5f ? Vector3.right : Vector3.left; //If there's no bridge just throw a random position
     }
 
     public void CheckForObstacle()
@@ -182,7 +185,7 @@ public class Enemy : MonoBehaviour
         RaycastHit hit;
 
         // Check for obstacle FORWARD
-        if (Physics.Raycast(transform.position, _nextMove, out hit, 1))
+        if (Physics.Raycast(transform.position, _nextMove, out hit, 1, roadMask))
         {
             if (hit.collider.CompareTag("Obstacle"))
             {
@@ -192,7 +195,7 @@ public class Enemy : MonoBehaviour
 
 
                 //Chefk LEFT or RIGHT
-                if (Physics.Raycast(transform.position, _nextMove, out hit, 1))
+                if (Physics.Raycast(transform.position, _nextMove, out hit, 1, roadMask))
                 {
                     if (hit.collider.CompareTag("Obstacle"))
                     {
@@ -201,7 +204,7 @@ public class Enemy : MonoBehaviour
                         _nextMove *= -1;
 
                         //Check other option
-                        if (Physics.Raycast(transform.position, _nextMove, out hit, 1))
+                        if (Physics.Raycast(transform.position, _nextMove, out hit, 1, roadMask))
                         {
                             if (hit.collider.CompareTag("Obstacle"))
                             {

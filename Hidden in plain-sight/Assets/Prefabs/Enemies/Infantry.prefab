@@ -125,6 +125,9 @@ MonoBehaviour:
     type: 3}
   _deathPrefab: {fileID: 6177578953454388770, guid: 7576d6020a5b3614a8ddbfe748231aed,
     type: 3}
+  roadMask:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!54 &5943117953536523151
 Rigidbody:
   m_ObjectHideFlags: 0
