@@ -8,7 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Badie/DevScene.unity
     guid: 9781c46f84b358943be329d86d553ea2
+  - enabled: 1
+    path: Assets/Scenes/Badie/DevScene - Copy.unity
+    guid: 7dcca03c7eca5a54b9623cbbf630e021
   m_configObjects: {}

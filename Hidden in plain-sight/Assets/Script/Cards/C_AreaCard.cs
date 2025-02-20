@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -22,7 +23,7 @@ public class C_AreaCard : MonoBehaviour, ICard
     private int _mana;
 
     [SerializeField]
-    AudioSource _cardPick;
+    AudioSource _cardPick, _playSound;
 
     private GameManager _gameManager;
     void Start()
@@ -30,6 +31,8 @@ public class C_AreaCard : MonoBehaviour, ICard
         _gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
 
         this.transform.rotation = Quaternion.Euler(0, 0, 2);
+
+        
     }
 
     void Update()
@@ -80,14 +83,27 @@ public class C_AreaCard : MonoBehaviour, ICard
             Debug.Log("Reset");
         }
 
+        _playSound.Play();
+
+
         UnPick();
-        Destroy(this.gameObject);
+
+        this.transform.position = new Vector3(1000, 2000, 3000); //This is the worst code i've ever written lmfao
+        this.transform.parent = null;
+        Invoke("DestroyThisShit", 2);
+
+        //Destroy(this.gameObject);
     }
 
     public void Pick()
     {
         m_Area = Instantiate(m_AreaPrefab);
         _cardPick.Play();
+    }
+
+    void DestroyThisShit()
+    {
+        Destroy(this.gameObject); // <-- Destroys this shit 
     }
 
     public void UnPick()

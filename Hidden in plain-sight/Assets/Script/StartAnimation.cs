@@ -52,5 +52,7 @@ public class StartAnimation : MonoBehaviour
         obj.position = target.position;
         obj.rotation = target.rotation;
         _HUD.SetActive(true);
+
+        this.gameObject.SetActive(false);
     }
 }
