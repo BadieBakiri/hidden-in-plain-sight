@@ -23278,9 +23278,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   minIntensity: 150
   maxIntensity: 170
   flickerSpeed: 0.1
+=======
+  minIntensity: 175
+  maxIntensity: 165
+  frequency: 7
+>>>>>>> Stashed changes
 =======
   minIntensity: 175
   maxIntensity: 165
