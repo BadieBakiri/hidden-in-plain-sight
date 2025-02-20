@@ -13190,9 +13190,12 @@ MonoBehaviour:
   Mana: 3
   _cards:
   - {fileID: 3852707828833877372, guid: 7d29500e8bb0c0c409c9aaa15914c756, type: 3}
+  - {fileID: 3852707828833877372, guid: 7d29500e8bb0c0c409c9aaa15914c756, type: 3}
   - {fileID: 2499814282146704900, guid: af3a6b6ed0f7df2449c00c88163ff7c3, type: 3}
-  - {fileID: 3852707828833877372, guid: 0341f4051239f64429e415faad47130b, type: 3}
+  - {fileID: 2499814282146704900, guid: af3a6b6ed0f7df2449c00c88163ff7c3, type: 3}
   - {fileID: 2499814282146704900, guid: 532caec52bc19ff478436e31b82e9202, type: 3}
+  - {fileID: 3852707828833877372, guid: 0341f4051239f64429e415faad47130b, type: 3}
+  - {fileID: 2499814282146704900, guid: af3a6b6ed0f7df2449c00c88163ff7c3, type: 3}
   _hand: {fileID: 1909815995}
   InfantryCount: 0
   TankCount: 0

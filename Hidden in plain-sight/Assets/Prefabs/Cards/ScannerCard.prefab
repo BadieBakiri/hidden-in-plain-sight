@@ -287,7 +287,7 @@ MonoBehaviour:
     type: 3}
   m_EffectPrefab: {fileID: 3530630031183734060, guid: 5d5569a7fe43c1e43b403266aae5ddf2,
     type: 3}
-  _cost: 1
+  _cost: 2
 --- !u!114 &2687083335215323052
 MonoBehaviour:
   m_ObjectHideFlags: 0
